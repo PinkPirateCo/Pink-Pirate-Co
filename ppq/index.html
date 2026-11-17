@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Design Request — Pink Pirate Co.</title>
+  <meta name="description" content="Tell us about your company and goals so we can map out the best journey to your treasure.">
+  <meta property="og:title" content="Design Request — Pink Pirate Co.">
+  <meta property="og:description" content="Tell us about your company and goals so we can map out the best journey to your treasure.">
+  <meta property="og:image" content="https://www.pinkpirateco.com/images/PinkPirate-Header-v1.jpg">
+  <link rel="icon" href="../images/favicon.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@800&family=Barlow:wght@500;700&family=Inter+Tight:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="../"><img src="../images/PinkPirate-MainLogo-01.png" alt="Pink Pirate Co." width="160" height="56"></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+    <nav class="nav" id="site-nav">
+    <a href="../">Home</a>
+        <a href="../about/">About</a>
+        <a href="../portfolio/">Portfolio</a>
+        <a href="../shop/">Shop</a>
+        <a href="../blog/">Blog</a>
+        <a href="../contact/">Contact</a>
+    <a class="ig" href="https://instagram.com/pinkpirateco" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+    <a class="btn small" href="../ppq/">Get Started</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="section page-title">
+  <div class="wrap narrow center">
+    <img style="max-width:min(260px,100%)" src="../images/PinkPirateCo-Hello.png" alt="Hello!" class="center-img">
+    <p class="kicker">Intro</p>
+    <h1>Let’s get acquainted with your company and goals.</h1>
+    <p>Please answer the questions below in order for us to align on a path and map out the best journey to your treasure.</p>
+  </div>
+  <div class="spacer"></div>
+  <div class="wrap">
+    <!-- FORM: replace YOUR_REQUEST_FORM_ID with the ID Formspree gives you -->
+    <form class="form" action="https://formspree.io/f/YOUR_REQUEST_FORM_ID" method="POST">
+      <div class="row">
+        <label>First name <input name="first_name" required autocomplete="given-name"></label>
+        <label>Last name <input name="last_name" required autocomplete="family-name"></label>
+      </div>
+      <div class="row">
+        <label>Email <input type="email" name="email" required autocomplete="email"></label>
+        <label>Website <input type="url" name="website" placeholder="https://"></label>
+      </div>
+      <label>Business Name <input name="business_name"></label>
+      <label>What is the meaning behind the name? <small>(It's okay if you don't have this yet, we can help!)</small><input name="name_meaning"></label>
+      <label>What is your tagline? <input name="tagline"></label>
+      <label>What is your brand's mission statement? <input name="mission"></label>
+      <label>Who is your target audience? <input name="audience"></label>
+      <label>Describe how you want your brand to feel in 3 words: <input name="three_words"></label>
+      <label>Who are your top competitors or brands you admire? <input name="competitors"></label>
+      <label>What do you like or dislike about your current branding? <input name="current_branding"></label>
+      <fieldset>
+        <legend>Describe how you want your brand to look/feel: <small style="font-weight:400;color:#666">Click all that apply</small></legend>
+        <div class="checks"><label><input type="checkbox" name="look_and_feel" value="Feminine"> Feminine</label>
+<label><input type="checkbox" name="look_and_feel" value="Masculine"> Masculine</label>
+<label><input type="checkbox" name="look_and_feel" value="Minimalistic/Simplistic"> Minimalistic/Simplistic</label>
+<label><input type="checkbox" name="look_and_feel" value="Intricate/Detailed"> Intricate/Detailed</label>
+<label><input type="checkbox" name="look_and_feel" value="Luxurious"> Luxurious</label>
+<label><input type="checkbox" name="look_and_feel" value="Fun"> Fun</label>
+<label><input type="checkbox" name="look_and_feel" value="Serious"> Serious</label>
+<label><input type="checkbox" name="look_and_feel" value="Casual"> Casual</label>
+<label><input type="checkbox" name="look_and_feel" value="Modern"> Modern</label>
+<label><input type="checkbox" name="look_and_feel" value="Timeless/Classic"> Timeless/Classic</label>
+<label><input type="checkbox" name="look_and_feel" value="Elegant"> Elegant</label>
+<label><input type="checkbox" name="look_and_feel" value="Vibrant"> Vibrant</label>
+<label><input type="checkbox" name="look_and_feel" value="Loud"> Loud</label>
+<label><input type="checkbox" name="look_and_feel" value="Approachable"> Approachable</label>
+<label><input type="checkbox" name="look_and_feel" value="Colorful"> Colorful</label>
+<label><input type="checkbox" name="look_and_feel" value="Other"> Other</label></div>
+      </fieldset>
+      <label>If other - please explain <input name="look_and_feel_other"></label>
+      <label>Anything additional you'd like us to know? <textarea name="additional"></textarea></label>
+      <label>If you have already started a Pinterest board link us below: <input type="url" name="pinterest" placeholder="https://"></label>
+      <input type="hidden" name="_subject" value="New design request from pinkpirateco.com">
+      <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn" type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+<section class="section bg-light">
+  <div class="wrap"><h2 class="center">Payment Breakdown</h2>
+<div class="pay">
+  <div><img src="../images/25.png" alt="25%" loading="lazy"><p>deposit prior to commencement of design project</p></div>
+  <div><img src="../images/25.png" alt="25%" loading="lazy"><p>upon receipt of 1st round delivery</p></div>
+  <div><img src="../images/100.png" alt="100%" loading="lazy"><p>full payment upon receipt of final artwork delivery</p></div>
+</div>
+</div>
+</section>
+<section class="section bg-black">
+  <div class="wrap narrow">
+    <h2 class="center pink">FAQs</h2>
+    <div class="faq"><details><summary>How much will it cost?</summary><div><p>Because each project is unique there is no one price that “fits all”. By answering the questions it gives us a better understanding on how to properly quote your project and get a grasp for the scope of work involved.</p></div></details>
+<details><summary>How many concepts do you provide?</summary><div><p>We’ll present you with 2-3 concepts. You'll have the freedom to mix and match different elements/ideas that you'd like to see for the next round (max. 2 revisions).</p></div></details>
+<details><summary>Do you offer printing services?</summary><div><p>No, we do not provide printing services directly, but we can recommend reputable companies.</p></div></details>
+<details><summary>What is included in a brand identity package?</summary><div><p>- Main logo<br>- Secondary logo<br>- Social media logo<br>- Color palette<br>- Brand guide<br>- Social media covers<br>- Typography<br>- Business cards<br>- Social media templates</p></div></details>
+<details><summary>What's included in a logo package?</summary><div><p>- Main logo<br>- Secondary logo<br>- Social media icon<br>- Color palette<br>- Style guide</p></div></details>
+<details><summary>How do you accept payments?</summary><div><p>We use PayPal for payments</p></div></details>
+<details><summary>How will I receive my design project?</summary><div><p>Once all artwork is finalized, you’ll receive your deliverables via your own private dropbox link.</p></div></details></div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="logo" href="../"><img src="../images/PinkPirate-MainLogo-01.png" alt="Pink Pirate Co." loading="lazy"></a>
+    <nav>
+      <a href="../">Home</a><a href="../portfolio/">Portfolio</a><a href="../about/">About</a><a href="../shop/">Shop</a><a href="../blog/">Blog</a><a href="../contact/">Contact</a>
+    </nav>
+    <small>© <span id="yr">2026</span> Pink Pirate Co.</small><br>
+    <a class="ig" href="https://instagram.com/pinkpirateco" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+  </div>
+</footer>
+<script>
+  const t=document.querySelector('.menu-toggle'),n=document.getElementById('site-nav');
+  t.addEventListener('click',()=>{const o=n.classList.toggle('open');t.setAttribute('aria-expanded',o)});
+  document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>

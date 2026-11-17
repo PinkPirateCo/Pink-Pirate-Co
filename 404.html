@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found — Pink Pirate Co.</title>
+  <meta name="description" content="Pink Pirate Co. creates bold, vibrant packaging and branding designs that help products stand out on shelves worldwide. Elevate your brand today.">
+  <meta property="og:title" content="Pink Pirate Co. | Make Your Brand Shine — Get Noticed Now">
+  <meta property="og:description" content="Pink Pirate Co. creates bold, vibrant packaging and branding designs that help products stand out on shelves worldwide. Elevate your brand today.">
+  <meta property="og:image" content="https://www.pinkpirateco.com/images/PinkPirate-Header-v1.jpg">
+  <link rel="icon" href="/images/favicon.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@800&family=Barlow:wght@500;700&family=Inter+Tight:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="/"><img src="/images/PinkPirate-MainLogo-01.png" alt="Pink Pirate Co." width="160" height="56"></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+    <nav class="nav" id="site-nav">
+    <a href="/" aria-current="page">Home</a>
+        <a href="/about/">About</a>
+        <a href="/portfolio/">Portfolio</a>
+        <a href="/shop/">Shop</a>
+        <a href="/blog/">Blog</a>
+        <a href="/contact/">Contact</a>
+    <a class="ig" href="https://instagram.com/pinkpirateco" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+    <a class="btn small" href="/ppq/">Get Started</a>
+    </nav>
+  </div>
+</header>
+<main><section class="section center"><div class="wrap narrow"><h1>Lost at <span class="pink">sea.</span></h1><p>That page sailed off. Let's get you back on course.</p><a class="btn" href="/">Back to home</a></div></section></main>
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="logo" href="/"><img src="/images/PinkPirate-MainLogo-01.png" alt="Pink Pirate Co." loading="lazy"></a>
+    <nav>
+      <a href="/">Home</a><a href="/portfolio/">Portfolio</a><a href="/about/">About</a><a href="/shop/">Shop</a><a href="/blog/">Blog</a><a href="/contact/">Contact</a>
+    </nav>
+    <small>© <span id="yr">2026</span> Pink Pirate Co.</small><br>
+    <a class="ig" href="https://instagram.com/pinkpirateco" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+  </div>
+</footer>
+<script>
+  const t=document.querySelector('.menu-toggle'),n=document.getElementById('site-nav');
+  t.addEventListener('click',()=>{const o=n.classList.toggle('open');t.setAttribute('aria-expanded',o)});
+  document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop — Pink Pirate Co.</title>
+  <meta name="description" content="Bold fonts, quirky graphics and creative tools from Pink Pirate Co.">
+  <meta property="og:title" content="Shop — Pink Pirate Co.">
+  <meta property="og:description" content="Bold fonts, quirky graphics and creative tools from Pink Pirate Co.">
+  <meta property="og:image" content="https://www.pinkpirateco.com/images/PinkPirate-Header-v1.jpg">
+  <link rel="icon" href="../images/favicon.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@800&family=Barlow:wght@500;700&family=Inter+Tight:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="../"><img src="../images/PinkPirate-MainLogo-01.png" alt="Pink Pirate Co." width="160" height="56"></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+    <nav class="nav" id="site-nav">
+    <a href="../">Home</a>
+        <a href="../about/">About</a>
+        <a href="../portfolio/">Portfolio</a>
+        <a href="../shop/" aria-current="page">Shop</a>
+        <a href="../blog/">Blog</a>
+        <a href="../contact/">Contact</a>
+    <a class="ig" href="https://instagram.com/pinkpirateco" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+    <a class="btn small" href="../ppq/">Get Started</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="section page-title">
+  <div class="wrap">
+    <h1 class="center">Shop</h1>
+    <div class="spacer"></div>
+    <div class="products"><a class="product-card" href="../shop/p/thick-pickle-font/"><img src="../images/PinkPirateCo-Fonts-ThickPickle.png" alt="Thick Pickle Font" loading="lazy"><h3>Thick Pickle Font</h3><p class="price">$13.00</p></a>
+<a class="product-card" href="../shop/p/sandwiches/"><img src="../images/PinkPirateCo-Fonts-Sandwiches.png" alt="Sandwiches Font" loading="lazy"><h3>Sandwiches Font</h3><p class="price">$13.00</p></a></div>
+  </div>
+</section>
+<section class="section bg-black">
+  <div class="wrap narrow center">
+    <h2 class="pink">Bold. Playful. Wild.</h2>
+    <p>This isn’t your average design shop. It’s a playground of <strong>bold fonts</strong>, quirky graphics, and creative tools made for rule-breakers and risk-takers. Whether you’re crafting a brand, a passion project, or something totally wild, you’ll find the perfect touch of fun, edge, and originality right here. Grab what speaks to you and make some magic!</p>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="logo" href="../"><img src="../images/PinkPirate-MainLogo-01.png" alt="Pink Pirate Co." loading="lazy"></a>
+    <nav>
+      <a href="../">Home</a><a href="../portfolio/">Portfolio</a><a href="../about/">About</a><a href="../shop/">Shop</a><a href="../blog/">Blog</a><a href="../contact/">Contact</a>
+    </nav>
+    <small>© <span id="yr">2026</span> Pink Pirate Co.</small><br>
+    <a class="ig" href="https://instagram.com/pinkpirateco" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+  </div>
+</footer>
+<script>
+  const t=document.querySelector('.menu-toggle'),n=document.getElementById('site-nav');
+  t.addEventListener('click',()=>{const o=n.classList.toggle('open');t.setAttribute('aria-expanded',o)});
+  document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
